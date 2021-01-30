@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>10vaja-css-Milosic-Jan</title>
+
+    <meta charset="UTF-8">
+  	<meta name="description" content=" 10.vaja: Obrobe in robovi">
+ 	  <meta name="keywords" content="HTML, CSS, besedilo, fotografije, obrobe in robovi">
+  	<meta name="author" content="Jan Milosic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <style>
+      
+   body {
+   margin:20px;
+   font-family: 'Open Sans', sans-serif;
+   background-image: url("bg-obroba.png");
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   }
+   
+   h1 {
+   color: #996600; 
+   }
+   
+   #obesliki{
+   float: left;
+   margin: 5px 10px 5px 0px;
+   padding: 5px;
+   border: 3px outset #9fb23e;
+   }
+   
+   #okvir{
+   float: right;
+   margin: 5px 0px 5px 10px;
+   padding: 10px;
+   width: 200px;
+   height: 170px;
+   line-height:1.2;
+   font-weight:bold;
+   border: 2px solid #ccc;
+   }
+   
+   .clear {
+   clear: both;
+   }
+   
+   #spodnjacrta{
+   border-bottom: 10px double #888;
+   }
+   
+   .kvadrat {
+   float: left; margin: 5px 10px 5px 0px; padding: 3px; border: 20px ridge #C0C0C0; 
+   }
+   
+   .oznacbaena {
+   color: blue; font-family:Consolas, 'Courier New', monospace; font-style: italic;
+   }
+   .oznacbadvabold {
+   color: blue; font-family:Consolas, 'Courier New', monospace; font-style: italic; font-weight: bold;
+   }
+   
+    </style>
+
+
+</head>
+
+<body>
+
+<h1>Obroba na besedilu in sliki</h1>
+
+<span style="float: left; margin: 5px 10px 5px 0px; padding: 3px; border: 20px ridge #C0C0C0;"></span><div>Z oblikovno lastnostjo <span class="oznacbaena">border-color</span> določimo barve vseh štirih robov. Za vrednost navedemo vsaj eno in največ štiri vrednosti: če navedemo eno vrednost, velja za vse štiri robove; če navedemo dve vrednosti, velja prva za zgornji in spodnji, druga pa za levi in desni rob; če navedemo tri vrednosti, velja prva za zgornji, druga za levi in desni, tretja pa za spodnji rob; če navedemo štiri vrednosti, velja prva za zgornji, druga za desni, tretja za spodnji in četrta za levi rob.</div>
+
+<div class="clear"><img id="obesliki" src="okvir.jpg" width="250" height="210"/>Z oblikovno lastnostjo <span class="oznacbaena">border-width</span> določimo debeline vseh štirih robov. Za vrednost navedemo vsaj eno in največ štiri vrednosti: če navedemo eno vrednost, velja za vse štiri robove; če navedemo dve vrednosti, velja prva za zgornji in spodnji, druga pa za levi in desni rob; če navedemo tri vrednosti, velja prva za zgornji, druga za levi in desni, tretja pa za spodnji rob; če navedemo štiri vrednosti, velja prva za zgornji, druga za desni, tretja za spodnji in četrta za levi rob. </div>
+
+<div class="clear"></div>
+
+<div id="okvir">Lastnost <span class="oznacbadvabold">border</span> uporabljamo kot bližnjico za nastavitev enake barve, oblike in širine vsem štirim robom.</div>
+
+<div>Z oblikovno lastnostjo <span class="oznacbaena">border-style</span> določimo oblike vseh štirih robov. Za vrednost navedemo vsaj eno in največ štiri vrednosti: če navedemo eno vrednost, velja za vse štiri robove; če navedemo dve vrednosti, velja prva za zgornji in spodnji, druga pa za levi in desni rob; če navedemo tri vrednosti, velja prva za zgornji, druga za levi in desni, tretja pa za spodnji rob; če navedemo štiri vrednosti, velja prva za zgornji, druga za desni, tretja za spodnji in četrta za levi rob.</div>
+
+<div class="clear">Lastnost <span class="oznacbaena">border</span> uporabljamo kot bližnjico za nastavitev enake barve, oblike in širine vsem štirim robom. Na nek način je to bližnjica za nastavitev spodnjih treh lastnosti, a samo za primer, ko posamezni lastnosti nastavimo eno samo vrednost (za vse štiri robove). Za vrednost lastnosti border naštejemo vrednosti posameznih lastnosti robov v poljubnem vrstnem redu, pri čemer jih ločimo s presledki. Če vrednosti katere od lastnosti robov ne navedemo, bo dobila svojo privzeto vrednost.</div>
+
+<hr id="spodnjacrta"></hr>
+
+</body>
+</html>

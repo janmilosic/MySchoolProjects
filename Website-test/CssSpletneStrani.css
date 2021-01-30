@@ -1,0 +1,313 @@
+header{
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;	
+}
+
+body{
+	background-color: #7a7b84
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+nav {
+	float: right;
+	line-height: 100px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+nav a:hover{
+	color:#34acbc;
+}
+*/
+.sirinastrani {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.glava {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+
+.glava a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.logo{
+	padding-top: 19px;
+	float: left;
+	width: 60px;
+	height:60px;
+}
+.slikanavrhu {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url(https://images.hdqwalls.com/download/earth-space-hd-2560x1440.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.besedilonavrhu {
+
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.besedilo {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ccc8c8;
+	height: 2960px;
+}
+
+#sredinameni{
+	padding:250px;
+	text-align:center;
+	font-family: poppins;
+  }
+  
+  .meni{
+	color:white;
+	background:rgba(0, 0, 0, 0.6);
+	padding:10px 20px;
+	font-size:18px;
+	text-decoration:none;
+	letter-spacing:2px;
+	text-transform:uppercase;
+  }
+  
+  .meni:hover{
+	border:none;
+	background:rgba(255, 255, 255, 0.7);
+	padding:20px 20px;
+	color:black;
+  }
+
+  #zaokrozenirobovi{
+	border-radius: 12px;
+  }
+
+  nav {
+	font-family: monospace;
+  }
+  
+  ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  }
+  
+  li {
+	color: #fff;
+	display: block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+	transition-duration: 0.5s;
+  }
+	
+  li a {
+	color: #fff;
+  }
+  
+  li:hover {
+	background: red;
+	cursor: pointer;
+  }
+  
+  ul li ul {
+
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 1rem;
+	left: 0;
+	display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+  }
+  
+  ul li ul li {
+	clear: both;
+	width: 100%;
+  }
+
+
+
+
+.gajbica h2
+{
+	background-color: #34acbc;
+	border-radius: 12px;
+	width:75%;
+	padding-top:3%;
+	padding-bottom:3%;
+	text-align:center;
+	font-family:Ink free;
+}
+.gajbica
+{	
+	width:30%;
+	padding-left:15%;
+	padding-top:5%;
+	float:left;
+}
+
+.gajbica ul
+{
+	padding-bottom:10%;
+	text-size:14px;
+	font-family:Ink free;
+	font-weight:1000;
+}
+.mandarine
+{
+	width:20%;
+	float:left;
+	padding-left:3%;
+	padding-top:10%;
+	font-family:Ink free;
+	font-weight:1000;
+	margin-left:7%;
+}
+.mandarine img
+{
+	width:80%;
+	height:200px;
+	margin-left:5%;
+}
+.mandarine p
+{
+	width:75%;
+	text-align:center;
+	padding-left:3%;
+	font-size:16px;
+}
+.vsebina1
+{
+	width:80%;
+	float:left;
+	padding-top:10%;
+	font-family:Ink free;
+	padding-left:5%;
+	
+}
+.vsebina1 img
+{
+	width:40%;
+	heigth:25%;
+	margin-left:5%;
+	margin-right:5%;
+	float:left;
+}
+.vsebina1 h2
+{
+	background-color:#24A804;
+	width:50%;
+	text-align:center;
+	font-weight:bolder;
+	font-family:Ink free;
+	float:right;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-top:3%;
+}
+.vsebina1 p
+{
+	width:50%;
+	font-family:Ink free;
+	float:right;
+	font-weight:bold;
+}
+.vsebina2
+{
+	width:80%;
+	float:left;
+	padding-top:10%;
+	font-family:Ink free;
+	padding-left:9%;
+	
+}
+.vsebina2 img
+{
+	width:40%;
+	height:25%;
+	margin-left:5%;
+	margin-right:5%;
+	float:right;
+}
+.vsebina2 h2
+{
+	background-color:#24A804;
+	width:50%;
+	text-align:center;
+	font-weight:bolder;
+	font-family:Ink free;
+	float:left;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-top:3%;
+}
+.vsebina2 p
+{
+	width:50%;
+	font-family:Ink free;
+	float:left;
+	font-weight:bold;
+}
+.dostava
+{
+	padding-bottom:10%;
+}
+.noga
+{
+	width:100%;
+	float:left;
+	background-color:#666666;
+	padding:3%;
+	font-weight:bolder;
+	font-family:Ink free;
+}
+
+.noga table
+{
+	width:70%;
+	
+}
+.noga td
+{
+	width:20%;
+
+}
+

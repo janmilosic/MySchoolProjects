@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+  <title>Obrazec</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content=" 19.vaja: Preverjanje obrazca">
+    <meta name="keywords" content="HTML, CSS, JavaScript, preverjanje obrazca, obrazec">
+    <meta name="author" content="Jan Milosic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body >
+  <h1>Osebni podatki</h1>
+  
+<script src="preverjanje-obrazca.js"></script>
+
+  <form name="ob1" id="ob1" onreset="return confirm('Ste prepričani?')" onSubmit="return preveri(this)">
+    <table>
+      <tr>
+          <td class="desno">Ime:</td>
+          <td><input type="text" name="ime" id="ime" /></td>
+      </tr>
+      <tr>
+          <td class="desno">Priimek:</td>
+          <td><input type="text" name="priimek" id="priimek" /></td>
+      </tr>
+      <tr>
+          <td class="desno">Ulica:</td>
+          <td><input type="text" name="ulica" id="ulica" /></td>
+      </tr>
+      <tr>
+          <td class="desno">Kraj:</td>
+          <td><input type="text" name="kraj" id="kraj" /></td>
+      </tr>
+      <tr>
+          <td class="desno">Poštna številka:</td>
+          <td><input type="text" name="posta" id="posta" /></td>
+      </tr>
+      <tr>
+          <td class="desno">Spol:</td>
+          <td>
+          <select name="spol" id="spol">
+          <option value="--" selected="selected">--</option>
+          <option value="M" >Moški</option>
+          <option value="Ž" >Ženska</option>
+          </select>
+      </tr>
+      <tr>
+          <td class="desno">Rojstvo:</td>
+          <td>
+          <select name="dan" id="dan">
+              <option value="--" selected="selected">--</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+          </select>
+          <select name="mesec" id="mesec">
+              <option value="--" selected="selected">--</option>
+              <option value="jan">Januar</option>
+              <option value="feb">Februar</option>
+              <option value="mar">Marec</option>
+              <option value="apr">April</option>
+              <option value="maj">Maj</option>
+              <option value="jun">Junij</option>
+              <option value="jul">Julij</option>
+              <option value="avg">Avgust</option>
+              <option value="sep">September</option>
+              <option value="okt">Oktober</option>
+              <option value="nov">November</option>
+              <option value="dec">December</option>
+          </select>
+          <input type="text" name="letnica" id="letnica" size="4" />		
+          </td>
+      </tr>
+      <tr>
+          <td class="desno">GSM:</td>
+          <td><input type="text" name="gsm" id="gsm" size="12" /></td>
+      </tr>
+      <tr>
+          <td class="desno">E-mail:</td>
+          <td><input type="text" name="mail" id="mail" size="28" /></td>
+      </tr>
+      <tr>
+          <td class="desno top">Krožki:</td>
+          <td>
+              <select name="krozki" id="krozki"  multiple="multiple" size="5">
+              <option value="nog">Nogomet</option>
+              <option value="rok">Rokomet</option>
+              <option value="odb">Odbojka</option>
+              <option value="bad">Badminton</option>
+              <option value="tek">Tek</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td colspan="2" class="center"><strong>Označi tvoje znanje:</strong></td>
+      </tr>
+      <tr>
+          <td class="desno">HTML</td>
+          <td><input type="checkbox" name="jeziki" value="HTML" id="cb1" /></td>
+      </tr>
+      <tr>
+          <td class="desno">Javascript</td>
+          <td><input type="checkbox" name="jeziki" value="java" id="cb2"/></td>
+      </tr>
+      <tr>
+          <td class="desno">ASP.NET</td>
+          <td><input type="checkbox" name="jeziki" value="asp" id="cb3" /></td>
+      </tr>
+      <tr>
+          <td class="desno">C#</td>
+          <td><input type="checkbox" name="jeziki" value="C#" id="cb4" /></td>
+      </tr>
+      <tr>
+          <td class="desno">SQL</td>
+          <td><input type="checkbox" name="jeziki" value="SQL" id="cb5" /></td>
+      </tr>
+      <tr>
+          <td class="desno top">Tvoje znanje C#:</td>
+          <td>
+              <input type="radio" name="ocena" value="1" />Nezadostno<br />
+              <input type="radio" name="ocena" value="2" />Zadostno<br />
+              <input type="radio" name="ocena" value="3" />Dobro<br />
+              <input type="radio" name="ocena" value="4" />Prav dobro<br />
+              <input type="radio" name="ocena" value="5" />Odlično<br />
+          </td>
+      </tr>
+      <tr>
+          <td colspan="2" class="center">
+              <input type="reset" value="Pobriši" />
+              <input type="submit" value="Pošlji" />
+          </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+  <head>
+     <meta charset="UTF-8">
+  	<meta name="description" content=" 4.vaja: Fizično oblikovanje besedila">
+ 	 <meta name="keywords" content="HTML, CSS, urejanje besedila, pitagorov izrek">
+  	<meta name="author" content="Jan Milosic">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+
+      h1 {
+        color: red;
+        font-family:'Lucida Grande', Verdana, sans-serif;
+        font-size: 1.8;
+      }
+      body {
+        font-family: 'Segoe', 'Trebuchet MS', sans-serif;
+        color: #444;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-image: url("ozadje.png") ;
+        font-size: 0.9;
+      }
+
+      #odstavekbarva{
+        background-color: #8EA1F8 ;;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px
+      }
+      #zgornjipodnaslov{
+        color: #4B63F0;
+        font-weight: bold;
+        padding-top: 10px;
+      }
+      #spodnjipodnaslov{
+        color: #4B63F0;
+        padding-top: 10px;
+      }
+      #pitagorovizrek{
+        color: #FB6466;
+        padding-left:3px;
+        padding-right:3px;
+        font-family:'Courier New', Monaco, monospace;
+        font-size: 1.1 ;
+      }
+      #podcrtanapisavalezece{
+        font-style: italic;
+        color: #aaa;
+        text-decoration: underline dotted #bbb;
+      }
+      #address{
+        color: #969696;
+        font-size: 0.7;
+        text-decoration: overline #969696 1px;
+        margin: 1;
+        padding: 5px;
+
+      }
+    
+      .poudarjenapisava {font-weight: bold;}
+      .rdecabarva {color:#FB6466; font-family: 'Courier New', Monaco, monospace; font-size: 1.1; padding-right:3px; padding-left:3px ;}
+      .sivodstavek { color: #929292;}
+      
+
+    </style>
+
+    <title>4. vaja: Fizično oblikovanje besedila</title>
+  </head>
+
+<body>
+
+<h1>Pitagorov izrek</h1>
+
+<p id="odstavekbarva"><b>izrek je izrek v ravninski geometriji, imenovan po Pitagori</b><br><br>
+
+Vsota površin kvadratov katet pravokotnega trikotnika je enaka površini kvadrata nad hipotenuzo.</p>
+
+<p id="zgornjipodnaslov">Izrek lahko zapišemo tudi kot:</p>
+
+<p id="pitagorovizrek">c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></p>
+
+<p>kjer sta <i class="rdecabarva">a</i> in <i class="rdecabarva">b</i> dolžini katet, <i class="rdecabarva">c</i> pa dolžina hipotenuze. To je verjetno najbolj znan pojem iz celotne geometrije. </p>
+
+<p>Priljubljeno se imenuje tudi (<i id="podcrtanapisavalezece">»Oslovski most«</i>). Posplošila sta ga <b class="poudarjenobesedilo">Hipokrat</b> in <b class="poudarjenobesedilo">Evdoks</b>. Prvi ga naj bi po <b class="poudarjenobesedilo">Evdemu</b> celo dokazal pred <b class="poudarjenobesedilo">Evdoksom</b>. Za pravokotni trikotnik ga je dokazal <b class="poudarjenobesedilo">Evklid</b> v <i id="podcrtanapisavalezece">Elementih</i>. Uporabljali so ga že Egipčani in Kitajci v 6. stoletju pr. n. št.</p>
+
+<p class="sivodstavek"><u id="spodnjipodnaslov">Velja tudi nasprotna trditev:</u><br>
+  Za poljubna tri pozitivna števila <i class="rdecabarva">a</i>, <i class="rdecabarva">b</i> in <i class="rdecabarva">c</i>, za katera velja <i class="rdecabarva">a<sup>2</sup> +  b<sup>2</sup> = c<sup>2</sup></i>, obstaja trikotnik s stranicami <i class="rdecabarva">a</i>, <i class="rdecabarva">b</i> in <i class="rdecabarva">c</i>. V vsakem takšnem trikotniku je kot med stranicama <i class="rdecabarva">a</i> in <i class="rdecabarva">b</i> pravi.<br>
+  To trditev dokažemo s <i id="podcrtanapisavalezece">kosinusnim izrekom</i>, ki je posplošitev Pitagorovega izreka za vse (evklidske) trikotnike, ne samo za pravokotne.</p>
+
+<hr /> 
+<address id="address"> Povzeto po: Wikipedija (http://sl.wikipedia.org/wiki/Pitagorov_izrek) </address> <br>
+
+</body>
+
+</html>

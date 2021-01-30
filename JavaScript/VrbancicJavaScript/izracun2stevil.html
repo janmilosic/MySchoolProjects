@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Kalculator</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           
+    </head>
+    <body>
+
+        <script src="index.js"></script>
+
+    <form action="izracun2stevil.html">
+        <p>Vpiši prvo število: </p>
+        <input type="text" id="stevilo1"/>
+
+        <p>Vpiši drugo število: </p>
+        <input type="text" id="stevilo2"/>
+        
+        <p>Izberi računsko operacijo:</p>
+        <select id="operatorji">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="X">X</option>
+        </select> 
+
+        <p>Rezultat: </p>
+        <button type="button" onclick="izracun();">Izračunaj</button>
+
+        <input type="text" id="rezultat"/><br>
+
+        <p>Kaj ste zdaj počeli:</p>
+        <p id="izpis"></p>
+
+        <input type="reset" value="Pobriši">
+
+    </form>
+    </body> 
+</html>

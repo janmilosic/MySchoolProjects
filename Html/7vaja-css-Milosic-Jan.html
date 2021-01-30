@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="description" content=" 7.vaja: Odmiki">
+ 	  <meta name="keywords" content="HTML, CSS, urejanje besedila, odmiki">
+  	<meta name="author" content="Jan Milosic">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+
+      h1 {
+        color: orangered;
+      }
+      body {
+
+        font-family :"Open San", sans-serif;
+        
+      }
+
+      p{
+          padding: 0px;
+          margin: 0px;
+      }
+
+
+      #marginBox{
+        color: #a06700 ;
+        background-color: #e90;
+
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+
+      #borderBox{
+        color: #a06700 ;
+        background-color: #f4bb55;
+
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      #paddingBox{
+        color: #a06700 ;
+        background-color: #f9ddaa;
+
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      #elementBox{
+        color: #a06700 ;
+        background-color: #fff;
+
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        margin: 20px;
+    
+      }
+      
+      
+    
+      .barvnapisava {color: orangered; font-family: 'Courier New', Courier, monospace;}
+      .neurejenseznam {margin:5px 0px 5px 20px; padding: 0px; }
+      
+
+    </style>
+
+    <title>7. vaja: Odmiki</title>
+  </head>
+
+<body>
+
+<h1>Zunanji in notranji odmiki</h1>
+
+<p>Zunanje in notranje odmike lahko priredimo kateremukoli elemntu. Z lastnostjo <b class="barvnapisava">margin</b> določimo velikosti zunanjih odmikov, z lastnostjo <b class="barvnapisava">padding</b> pa notranje odmike na vseh štirih straneh elemanta. Za vrednost navedemo vsaj eno in največ štiri vrednosti:</p>
+
+    <ul class="neurejenseznam">
+        <li>če navedemo 1 vrednost, velja za vse štiri robove</li>
+        <li>če navedemo 2 vrednosti, velja prva za zgornji in spodnji, druga pa za levi in desni rob</li>
+        <li style="margin-top:25px;">če navedemo 3 vrednosti, velja prva za zgornji, druga za levi in desni, tretja pa za spodnji rob</li>
+        <li>če navedemo 4 vrednosti, velja prva za zgornji, druga za desni, tretja za spodnji in četrta za levi rob</li>
+        
+      </ul>
+
+<p> Zunanji in notranji odmiki: </p>
+
+<div id="marginBox">
+    Zunanja obroba okvirja (marginBox)  
+
+    <div id="borderBox">
+        Obroba okvirja (borderBox) 
+
+        <div id="paddingBox">
+            Notranji odmik okvirja (paddingBox)  
+
+            <div id="elementBox">
+                Element okvirja (elemntBox) 
+            </div>
+
+        </div> 
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

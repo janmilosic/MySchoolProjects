@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="splet, HTML, tabele, 3br">
+    <meta name="author" content="Jan Milošič">
+    <title>12. vaja: Semantična struktura</title>
+  </head>
+
+  <style>
+    #naslov { 
+       font-size: 110%;
+       font-weight: bold;
+       color:white;
+       background-color: rgb(35, 101, 201);
+    }
+    #levistolpec { 
+       font-size: 100%;
+       color:black;
+       background-color:rgb(105, 177, 201);
+    }
+
+    #desnistolpec { 
+       font-size: 75%;
+       color: navy;
+       background-color:green;
+    }
+    #avtor { 
+       font-size: 100%;
+       color:black;
+       background-color: orange;
+    }
+
+    .naslov { background-color: red }
+    .ime { background-color:grey }
+    .opis { background-color: violet }
+    .avtor { background-color: purple }
+    .seksija { background-color:rgb(2, 43, 155) ;}
+    
+    </style>
+
+  <body>
+    <table border="1">
+      <tbody>
+        <tr>
+        <td colspan="3" align="center"><header id="naslov">
+          Jan Milosic
+        </header></td>
+        </tr>
+        <tr><td id="levistolpec"><nav>
+          Druženje<br>
+      Igranje videoiger <br>
+    Programiranje</nav></td>
+        <section class="sekcija">
+          <td align="middle" class="naslov">Življenjepis<table border="1">
+          <tbody><tr>
+            <td align="middle"><header class="ime">
+              Jan Milošič - Življenjepis
+            </header></td>
+          </tr>
+            <tr>
+              <td><article class="opis">
+                Rodil sem se 20.10.2003 in sem<br>
+                tehnik računalništva.
+              </article></td>
+            </tr>
+            </tr>
+            <tr><td align="middle"><footer class="avtor">Avtor: Jan Milošič</footer></td>
+            </tr>
+          </tbody>
+          </section>
+        </table></td>
+        <td id="desnistolpec"><aside class="">
+          <a href="https://www.google.si">www.google.si</a><br>
+          <a href="https://www.youtube.com">www.youtube.com</a><br>
+          <a href="https://mail.google.com/mail">mail.google.com/mail</a><br>
+        </aside></td>
+        <tr id="avtor">
+          <td colspan="3" align="middle" ><footer>Avtor: Jan Milošič</footer></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

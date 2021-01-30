@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  	<meta name="description" content=" 12.vaja: Seznami">
+ 	<meta name="keywords" content="HTML, CSS, besedilo, fotografije, Seznami">
+  	<meta name="author" content="Jan Milosic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<title>12.vaja-css-Milosic-Jan.html</title>
+
+<style>
+
+body{
+margin:20px;
+background-color: #e9f4fc;
+}
+
+p{
+font-family: 'Open Sans', sans-serif;
+line-height: 1.5;
+}
+
+h1{
+color: #996600; 
+text-decoration: underline dotted 1px #996600;
+}
+
+h2{
+color: #ff8600;
+}
+
+ol{
+list-style-type:lower-roman;
+padding-left: 50px;
+font-family:"Trebuchet MS", sans-serif ;  
+color: #808080;
+font-style: italic;  
+}
+
+ul{
+list-style-image: url('jupiter.png');  
+padding-left: 50px;
+font-family:"Trebuchet MS", sans-serif ;  
+color: #808080;
+font-style: italic;  
+}
+
+#slika{
+margin: 5px 10px 10px 5px; 
+padding: 3px;
+height: auto;
+width: 350px;
+}
+
+#napispodsliko{
+font-size: 80%;
+font-style: italic;
+color: #707070;
+padding-left: 5px;
+}
+
+#obroba{
+outline: 1px solid #aeaeae;
+height: auto;
+width: 365px;   
+background-color: white;
+}
+
+.sredina{
+margin: auto;    
+}
+
+.levo{
+width: 50%;
+float: left;
+}
+
+.desno{
+width: 50%;
+float: left;
+}
+
+.seznam {
+clear: left;
+}
+
+.odebeljeno{
+font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Seznam planetov v vesolju</h1>
+
+<p><span class="odebeljeno">Seznam planetov v osončju</span> navaja planete našega Osončja po definiciji Mednarodne astronomske zveze
+(IAU) - astronomska telesa v tiru okrog Sonca, ki so dovolj velika in masivna da dosežejo hidrostatično
+ravnovesje ter s svojim gravitacijskim privlakom počistijo območje svojega tira.</p>
+
+<div id="obroba" class="sredina">
+    <img id="slika" src="osoncje.jpg">
+    <span id="napispodsliko">Planeti našega osončja</span>
+</div>
+
+<p>Naše osončje ima po tej definiciji 8 planetov (po vrstnem redu oddaljenosti od Sonca):</p>
+
+<ol>
+    <li>Merkur</li>
+    <li>Venera</li>
+    <li>Zemlja</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uran</li>
+    <li>Neptun</li>
+</ol>
+
+<h2>Jupitrove lune</h2>
+
+<div class="desno">
+<p>Prve štiri Jupitrove naravne satellite je opazil 7. in 8. januarja leta 1619 Galileo Galilei.
+Ti naravni sateliti danes tvorijo skupino Galilejevih satelitov in so daleč največja telesa okrog Jupitra,
+saj preostalih 59 naravnih satelitov predstavlja le 0,003% skupne krožeče mase. Največje štiri Jupitrove lune so:</p>
+
+</div>
+
+<div id="obroba" class="levo">
+    <img id="slika" src="jupitrove-lune.jpg">
+    <span id="napispodsliko">Jupitrove lune: Io, Evropa, Ganimed, Kalisto</span>
+</div>
+
+<br>
+<br>
+
+<ul class="seznam">
+
+    <li>Io</li>
+    <li>Evropa</li>
+    <li>Ganimed</li>
+    <li>Kalisto</li>    
+</ul>
+
+</body>
+</html>

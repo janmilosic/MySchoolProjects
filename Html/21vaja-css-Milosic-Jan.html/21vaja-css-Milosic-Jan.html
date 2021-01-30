@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>21vaja-css-Milosic-Jan.html</title>
+   
+   <meta charset="UTF-8">
+  	<meta name="description" content=" 21. vaja: Vodoravni in spustni menu">
+ 	<meta name="keywords" content="HTML, CSS, tabela, Vodoravni in spustni menu">
+  	<meta name="author" content="Jan Milosic ">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style type="text/css">
+
+h3{
+color: rgb(3, 165, 111);
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+ul.dropdownmeni {
+   background: rgb(82, 176, 189);
+   height: 30px;
+   width: 490px;
+}
+
+ul.dropdownmeni > li { 
+   float: left;
+   position: relative;
+}
+
+ul.dropdownmeni ul {
+    background: rgb(177, 177, 177);
+    display: none;
+    position: absolute;
+    left: 0; top: 100%;
+}
+
+ul.dropdownmeni a { 
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+ul.dropdownmeni li { list-style: none; }
+ul.dropdownmeni li:hover { background: #666;  }
+ul.dropdownmeni li:hover ul { display: block;  }
+
+@media all and (max-width: 480px) {
+   ul.dropdownmeni {  height: auto; }
+   ul.dropdownmeni > li {  float: none; width: 100%; }
+   ul.dropdownmeni a { line-height: 30px; }
+   ul.dropdownmeni ul { position: relative; }
+}
+
+</style>
+</head>
+<body>
+
+<h3> UČENJE NAČRTOVANJA IN  RAZVOJA SPLETNIH STRANI </h3>
+
+<p>Pripravil: Jan Milošič</p>
+<p>V meniju izberite kaj bi se radi učili nato pa se vam bo prikazalo več 
+razpoložljivih strani za očenje.</p>
+
+<nav>
+   <ul class="dropdownmeni">
+   
+      <li>
+      <a href="#">Učenje HTML</a>
+      <ul>
+            <li><a href="https://www.w3schools.com/html/">W3Schools</a></li>
+            <li><a href="https://nsa-splet.si/html/html.php">ENSA</a></li>
+            <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy</a></li>
+         </ul>
+	  </li>   
+      
+      <li>
+         <a href="#">Učenje CSS</a>
+         <ul>
+            <li><a href="https://www.w3schools.com/css/">W3Schools</a></li>
+            <li><a href="https://nsa-splet.si/css/css.php">ENSA</a></li>
+            <li><a href="https://www.codecademy.com/learn/learn-css">Codecademy</a></li>
+         </ul>
+      </li>
+      
+      <li>
+      <a href="#">Učenje JavaScript </a>
+      	<ul>
+            <li><a href="https://www.w3schools.com/js/DEFAULT.asp">W3Schools</a></li>
+            <li><a href="https://nsa-splet.si/js/js.php">ENSA</a></li>
+            <li><a href="https://www.codecademy.com/learn/introduction-to-java">Codecademy</a></li>
+         </ul>
+      </li>
+      
+      <li><a href="#">Učenje PHP</a>
+      	<ul>
+            <li><a href="https://www.w3schools.com/php/">W3Schools</a></li>
+            <li><a href="https://nsa-splet.si/php/php.php">ENSA</a></li>
+            <li><a href="https://www.codecademy.com/learn/learn-php">Codecademy</a></li>
+         </ul>
+      </li>
+      
+   </ul>
+</nav>
+
+</body>
+</html>
