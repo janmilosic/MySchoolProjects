@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Kalkulator</title>
+      
+    <meta charset="UTF-8">
+    <meta name="description" content=" 22.vaja-JS-Milosic-Jan">
+    <meta name="keywords" content="HTML, CSS, JavaScript, kalkulator, racunanje">
+    <meta name="author" content="Jan Milosic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+   <body>
+    <div class="pozicija">
+        <table border="6"  cellspacing="0" class="borderbarva">
+            <tr>
+                <td colspan="4" id="rezultat">0</td>
+            </tr>
+            <tr>
+                <td><button onclick="izpis(this);">7</button></td>
+                <td><button onclick="izpis(this);">8</button></td>
+                <td><button onclick="izpis(this);">9</button></td>
+                <td rowspan="2"><button onclick="izpis(this);" class="plusbtn">+</button></td>
+            </tr> 
+            <tr>
+                <td><button onclick="izpis(this);">4</button></td>
+                <td><button onclick="izpis(this);">5</button></td>
+                <td><button onclick="izpis(this);">6</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="izpis(this);">1</button></td>
+                <td><button onclick="izpis(this);">2</button></td>
+                <td><button onclick="izpis(this);">3</button></td>
+                <td rowspan="3"><button onclick="izpis(this);" class="jeenakobtn">=</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="izpis(this);">0</button></td>
+                <td><button onclick="izpis(this);">.</button></td>
+                <td><button onclick="izpis(this);">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="izpis(this);">C</button></td>
+                <td><button onclick="izpis(this);">/</button></td>
+                <td><button onclick="izpis(this);">*</button></td>
+            </tr>
+        </table>
+    </div>
+
+      <script src="index.js"></script>
+
+   </body>
+   </head>
+</html>

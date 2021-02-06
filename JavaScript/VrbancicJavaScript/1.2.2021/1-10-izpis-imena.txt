@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrni besedilo</title>
+</head>
+<body>
+
+<h2>Vpisi stevilo</h2> 
+<p>Vpišite stevilo med 1 in 10:</p>
+
+<input type="text" name="st" id="st">
+<button type="button" id="izpisi" onclick="izpis()"> Izpisi </button> <br>
+<div id="praznopolje">
+</div>
+
+<script>
+
+
+var btn = document.getElementById('izpisi');
+var st = document.getElementById('st');
+
+function izpis(){
+
+   let stevilo = st.value;
+
+   if (stevilo == "" || stevilo < 1 || stevilo > 10 ) {
+      return alert("Vpisati morate število med 1 in 10");
+    }
+
+   if (isNaN(stevilo)){
+      return alert("Vpišete lahko samo številke");
+   } 
+
+   for (let i = 1; i <= stevilo; i++)
+      narediSuperDuperStvar(i);
+
+}
+
+function narediSuperDuperStvar(i) {
+
+   var noviP = document.createElement("P");
+   document.body.appendChild(noviP);
+   var node = document.createTextNode( i + ". Jan");
+   noviP.appendChild(node);
+}
+
+</script>
+
+</body>
+</html> 9

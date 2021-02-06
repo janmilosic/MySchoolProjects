@@ -1,0 +1,30 @@
+
+*{
+    background-color: rgb(193, 195, 195);
+}
+
+#rdec{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#moder{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#zelen{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#sp-barve{
+    color: black;
+    font-size: 24px;
+    outline: solid black 2px;
+    width: auto;
+}
