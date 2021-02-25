@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function moja()
+{
+/*
+Dodati sem morel samo to spodnjo kodo document.getElementById('stevilo-vrstic').value; in narediti 2 nova vnosna polja 
+*/
+var stV= document.getElementById('stevilo-vrstic').value;//število vrstic
+var stS= document.getElementById('stevilo-stolpcev').value;;//število stolpcev
+
+var nOkno=window.open("", "Jaz", "width=200, height=200, top=20, left=20");
+  nOkno.document.write('<html>');
+  nOkno.document.write('<head>');
+  nOkno.document.write('<style> table,td{border:red solid 2px;color:blue;}</style>');//oblika tabele
+  nOkno.document.write('</head>');
+  nOkno.document.write('<body>');
+  nOkno.document.write('<table>');
+  for(var i=1;i<=stV; i=i+1)//vrste obdelam
+  {
+    nOkno.document.write('<tr>');
+    for(var j=1;j<=stS; j=j+1)//celice v posamezni vrsti
+    { 
+      nOkno.document.write('<td>');
+      nOkno.document.write('Jan');//vsebina celice
+      nOkno.document.write('</td>');
+    }//konec celice=stolpci
+    nOkno.document.write('</tr>');
+  }//konec vrste
+  nOkno.document.write('</table>');
+  nOkno.document.write('</body>');
+  nOkno.document.write('</html>');
+}
+</script>
+</head>
+<body>
+<h2>Koda</h2>
+
+<form>
+
+    Izberi število vrstic v tabeli:<br>
+    <input type="number" name="stevilo-vrstic" id="stevilo-vrstic"><br><br>
+    Izberi število stolpcev v tabeli:<br> 
+    <input type="number" name="stevilo-stolpcev" id="stevilo-stolpcev"><br>
+    
+</form>
+
+<button type="button"onclick="moja();">Naredi tabelo</button>
+<p id="demo"></p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<script>
+function moja()
+{
+var stV= document.getElementById('stevilo-vrstic').value;//število vrstic
+var stS= document.getElementById('stevilo-stolpcev').value;;//število stolpcev
+
+var nOkno=window.open("", "Jaz", "width=200, height=200, top=20, left=20");
+  nOkno.document.write('<html>');
+  nOkno.document.write('<head>');
+  nOkno.document.write('<style> table,td{border:red solid 2px;color:blue;}</style>');//oblika tabele
+  nOkno.document.write('</head>');
+  nOkno.document.write('<body>');
+  nOkno.document.write('<table>');
+  for(var i=1;i<=stV; i=i+1)//vrste obdelam
+  {
+    nOkno.document.write('<tr>');
+    for(var j=1;j<=stS; j=j+1)//celice v posamezni vrsti
+    { 
+      nOkno.document.write('<td>');
+      nOkno.document.write('Jan');//vsebina celice
+      nOkno.document.write('</td>');
+    }//konec celice=stolpci
+    nOkno.document.write('</tr>');
+  }//konec vrste
+  nOkno.document.write('</table>');
+  nOkno.document.write('</body>');
+  nOkno.document.write('</html>');
+}
+</script>
+</head>
+<body>
+<h2>Koda</h2>
+
+<form>
+
+    Izberi število vrstic v tabeli:<br>
+    <input type="number" name="stevilo-vrstic" id="stevilo-vrstic"><br><br>
+    Izberi število stolpcev v tabeli:<br> 
+    <input type="number" name="stevilo-stolpcev" id="stevilo-stolpcev"><br>
+    
+</form>
+
+<button type="button"onclick="moja();">Naredi tabelo</button>
+<p id="demo"></p>
+</body>
+</html>

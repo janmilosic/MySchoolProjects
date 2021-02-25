@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script>
+  function Izpis() {
+  var mojoOkno = window.open("", "Jan", "width=1000, height=500");
+  mojoOkno.document.write("<p> Jan </p><p> Jan </p><p> Jan </p> ");
+}
+  </script>
+</head>
+<body>
+<p>Klikni na gumb in odprlo se bo novo okno z mojim imenom.</p>
+<button onclick="Izpis()">Odpri novo okno</button>
+<script>
+</script>
+</body>
+</html>

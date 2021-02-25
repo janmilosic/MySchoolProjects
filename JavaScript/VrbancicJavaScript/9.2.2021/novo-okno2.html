@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Klikni na gumb in bomo naredili novo okno Hehhe v katerem je tekst.</p>
+<button onclick="lepotaIzpisa()">Odpri novo okno</button>
+<button onclick="zapriOkno()">Zapri okno </button>
+
+<script>
+    /*dodati sem moiral samo se eno novo funkcijo ion en nov gumb za izbris okna*/
+    var myWindow;
+
+    function lepotaIzpisa() {
+    myWindow = window.open("", "myWindow", "width=200,height=100");
+    myWindow.document.write("<p>Sem'myWindow'.Sem 200px siroko in 100px visoko!</p>");
+    }
+
+    function zapriOkno() {
+    myWindow.close();
+    }
+</script>
+
+</body>
+</html>
+

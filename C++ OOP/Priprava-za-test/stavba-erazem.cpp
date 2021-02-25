@@ -85,9 +85,9 @@ class Stavba{
         cout << "Sirina: " <<this->sirina <<"m"<< endl;
 		cout << "Visina: " <<this->visina <<"m"<< endl;	
 		cout << "Stevilo prebivalcev :"<<this->st_prebivalcev << endl;
-		cout<< "Prostornina: "<<this->Prostornina()<<"m3"<<endl;
-		cout<< "Povrsina: "<<this->Povrsina()<<"m2"<<endl;
-		cout<< "Barva fasade: "<<this->barva()<<endl;
+		cout << "Prostornina: "<<this->Prostornina()<<"m3"<<endl;
+		cout << "Povrsina: "<<this->Povrsina()<<"m2"<<endl;
+		cout << "Barva fasade: "<<this->barva()<<endl;
 		}
 		string barva(){
 			string bar_fasade[10]={"modra","rdeca","bela","rumena","rjava","zelena","roza","vijolcna","oranzna","temnomodra"};
