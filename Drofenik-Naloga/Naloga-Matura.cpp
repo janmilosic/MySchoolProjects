@@ -12,7 +12,7 @@ class naselje{
 
 	private:
 		
-		string naselje[5]={"Banovci","Vransko","Trbovlje","Most na Soci","Cemsenik"};
+		string naselje[5]={"Banovci","Vransko","Trbovlje","Most na Soci","Cemsenik"};//5 daj vun
 		double povrsina[5]={2.64,3.1,10.232,1.57,2.28};
 		string statInput, statRegija[5]={"Pomurska","Savinjska","Zasavska","Goriska","Zasavska"};
 		int postnaSt[5]={9241,3305,1420,5216,1413};
