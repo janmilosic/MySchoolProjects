@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <script>
+function preveri(obr)
+{
+  if (obr.ime.value == "") {
+      alert("Vpisite ime!")
+      return false
+  }
+  if (obr.geslo.value == "") {
+      alert("Vpisite geslo!")
+      return false
+  }
+  if (obr.opis.value == "") {
+      alert("Vpisite opis!")
+      return false
+  }
+  if (obr.datoteka.value == "") {
+      alert("Vpisite ime datoteke!")
+      return false
+  }
+  return true
+}
+</script>
+</head>
+<body>
+<h1>Primer za formo</h1>
+<form onsubmit="return preveri(this)" action="">
+  <table>
+      <tbody><tr>
+        <td><b>Ime:</b></td>
+        <td><input name="ime" type="text"></td>
+      </tr>
+
+      <tr>
+        <td><b>Geslo:</b></td>
+        <td><input name="geslo" type="password"></td>
+      </tr>
+      <tr>
+        <td valign="top"><b>Opis:</b></td>
+        <td><textarea name="opis" rows="2" cols="20"></textarea></td>
+
+      </tr>
+      <tr>
+        <td><b>Datoteka:</b></td>
+        <td><input name="datoteka" type="file"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+
+        <td><input value="OK" type="submit"></td>
+      </tr>
+  </tbody></table>
+</form>
+</body>
+</html> 
+     
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Naloga</title>
+</head>
+<body>
+    <ul id="menu">
+    </ul>
+    
+    <script>
+    
+        function narediUl(name) {
+            let ul = document.createElement("ul");
+            ul.textContent = name;
+            return ul;
+        }
+        
+        function narediLi(name) {
+            let li = document.createElement("li");
+            li.textContent = name;
+            return li;
+        }
+        
+        
+        const menu = document.querySelector("#menu");
+
+        menu.appendChild(narediLi("Razred 1"));
+        menu.appendChild(narediUl("1a"));
+        menu.appendChild(narediUl("1b"));
+        
+        menu.appendChild(narediLi("Razred 2"));
+        menu.appendChild(narediUl("2a"));
+        menu.appendChild(narediUl("2b"));
+        
+        menu.appendChild(narediLi("Razred 3"));
+        menu.appendChild(narediUl("3a"));
+        menu.appendChild(narediUl("3b"));
+        
+    </script>
+</body>
+</html>
