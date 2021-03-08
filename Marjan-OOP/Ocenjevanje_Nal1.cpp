@@ -91,6 +91,12 @@ public:
         return sqrt(s * (s - this->a) * (s - this->b) *(s - this->c) ); //obrazec za ploscino(google)
     }
 
+
+    void NajvecjaPloscina(Trikotnik t[], int dolzina)
+    {
+        //najvecjaPloscina
+    }
+
 };
 
 
