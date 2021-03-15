@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprememba barve</title>
+</head>
+<body>
+
+    <h1>Sprememba barve</h1>
+
+    <p id="barva">Ta tekst bo spremenil barvo!</p>
+    <h4></h4>
+    
+    <span>Vpiši barvo:</span> <input type="text" name="izbirabarve" id="izbirabarve"  value="Test"> <br><br>
+    <button onclick="SpremeniBarvo()"> Spremeni barvo </button>
+
+<script>
+
+    function SpremeniBarvo(){
+        
+        var vnos = document.getElementById('izbirabarve').value;
+        var vMalo = vnos.toLowerCase();
+        var mb = "modra";
+        var rd = "rdeča";
+        var rm = "rumena";
+        var ze = "zelena";
+        var ro = "roza";
+
+        if(vMalo == mb){
+            document.getElementById("barva").style.color = "blue";
+        }
+
+        else if(vMalo == rd){
+            document.getElementById("barva").style.color = "red";
+        }
+
+        else if(vMalo == rm){
+            document.getElementById("barva").style.color = "yellow";
+        }
+
+        else if(vMalo == ze){
+            document.getElementById("barva").style.color = "green";
+        }
+
+        else if(vMalo == ro){
+            document.getElementById("barva").style.color = "pink";
+        }
+        else{
+            alert("Niste vnesli pravilne barve");
+        }
+
+    }
+
+</script>
+
+</body>
+</html>
