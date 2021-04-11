@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo okno</title>
+</head>
+
+
+<body>
+    Indeks: <input type="number" name="indeks"> <br>
+    Besedilo: <input type="text" name="text"> <br>
+    
+    <button onclick="odpri()">Odpri</button><br><br>
+    <button onclick="zapri()">Zapri</button><br><br>
+    <button onclick="preveri()">Vpisi</button><br><br>
+
+    <script>
+
+    var novoOkno = [];
+    var st = 0;
+
+    function odpri() {
+        novoOkno[st] = window.open("", "", " top=100px,left=100px,width=400px,height=400px");
+        st = st + 1;
+    }
+    function zapri() {
+        st = st - 1;
+        novoOkno[st].close();
+    }
+    function preveri() {
+        var indeks = document.getElementsByTagName("input");
+        if (indeks[0].value == "" || indeks[1].value == "") {
+            alert("Nisi izpolnil vseh podatkov!");
+
+            if (indeks[0].value > novoOkno.length || indeks[0].value < 0 ) {
+                alert("Ta indeks ne obstaja");
+            }
+        }
+        else{
+            novoOkno[indeks[0].value].document.write(indeks[1].value + "<br>");
+        }
+    }
+</script>
+
+</body>
+</html>

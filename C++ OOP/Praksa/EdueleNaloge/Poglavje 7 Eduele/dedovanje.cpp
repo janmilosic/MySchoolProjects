@@ -1,86 +1,152 @@
 #include <cstdlib>
-#include <iostream>
-#include <cmath>
+#include<iostream>
 
 using namespace std;
 
+class Oseba{
+protected:
+    string ime;
+    string priimek;
+    string emso;
+    int starost;
+public:
 
-class Lok{
-
-  protected:
-    int moc;
-    int dolzinaTetive;
-    int dolzinaNatega;
-
-  public:
-
-    Lok(int moc, int dolzinaTetive , int dolzinaNatega):
-    moc(moc), dolzinaTetive(dolzinaTetive), dolzinaNatega(dolzinaNatega) {}
-
-    void setMoc(int moc) {
-      this-> moc = moc;
-    }
-     void setDolzinaTetive(int dolzinaTetive) {
-      this-> dolzinaTetive = dolzinaTetive;
+    Oseba() {
     }
 
-    void setDolzinaNatega(int dolzinaNatega) {
-      this-> dolzinaNatega = dolzinaNatega;
+    Oseba(string ime, string priimek, string emso, int starost) :
+            ime(ime), priimek(priimek), emso(emso), starost(starost) {
     }
 
-    int GetMoc() const {
-        return moc;
-    }
 
-    int GetDolzinaTetive() const {
-        return dolzinaTetive;
-    }
+/*Oseba(string ime, string priimek, string emso, int starost){
+this->ime=ime;
+  }*/
 
-    int GetDolzinaNatega() const {
-        return dolzinaNatega;
-    }
+    void Izpisi(){
+        cout<< "Ime: " <<this->ime<<endl;
+        cout<< "Priimek: " <<this->priimek<<endl;
+        cout<< "Emso: " <<this->emso<<endl;
+        cout<< "Starost: " <<this->starost<<endl;
 
-    void izpis(){
-        cout<<"Moc: "<<this-> moc <<endl;
-        cout<<"Dolzina tetive: "<<this-> dolzinaTetive <<endl;
-        cout<<"Dolzina natega: "<<this-> dolzinaNatega <<endl;
-}
+    }
 
 };
 
-class SestLok : Lok {
+class Dijak: Oseba{
 
-private:
+protected:
+    string sola;
+    string dij_izkaznica;
 
-  int prenosMoci;
 
-public: 
+public:
 
-  SestLok(int moc, int dolzinaTetive , int dolzinaNatega, int prenosMoci):
-  Lok(moc, dolzinaTetive, dolzinaNatega), prenosMoci(prenosMoci) {}
-
-  void setPrenosMoci(int prenosMoci) {
-      this-> prenosMoci = prenosMoci;
+    Dijak() :
+            Oseba() {
     }
 
-  int getPrenosMoci() const {
-      return prenosMoci;
-  }
+    Dijak(string sola, string dij_izkaznica) :
+            sola(sola), dij_izkaznica(dij_izkaznica) {
+    }
 
-  void izpis(){
-      Lok::izpis();
-      cout<<"Prenos moci: "<<this-> prenosMoci <<endl;
-  } 
+    Dijak(string ime, string priimek, string emso, int starost, string sola, string dij_izkaznica) :
+            Oseba(ime, priimek, emso, starost), sola(sola), dij_izkaznica(dij_izkaznica) {
+    }
+
+    Dijak(Oseba o,string sola, string dij_izkaznica){
+        this->sola=sola;
+        this->dij_izkaznica=dij_izkaznica;
+
+    }
+
+
+    void Izpisi(){
+        Oseba::Izpisi();
+        cout << "Šola: " << this->sola <<endl;
+        cout << "Dijaška izkaznica: " << this->dij_izkaznica <<endl;
+    }
+
 };
 
-int main(int argc, char const *argv[])
-{
-  Lok a (25,40,20);
-  a.izpis();
+class Kosarkar : Oseba {
 
-  /*
-  SestLok b (10);
-  b.izpis();
-  */
-  return 0;
+protected:
+    string klub;
+    string st_dres;
+
+public:
+
+    Kosarkar() : Oseba(){}
+
+    Kosarkar(string ime, string priimek, string emso, int starost, string klub, string st_dres) :
+            Oseba(ime, priimek, emso, starost), klub(klub), st_dres(st_dres){}
+
+    void Izpisi(){
+
+        Oseba::Izpisi();
+        cout << "Klub: " << this->klub << endl;
+        cout << "Dres: " << this->st_dres << endl;
+
+    }
+
+    const string &getKlub() const {
+        return klub;
+    }
+
+    void setKlub(const string &klub) {
+        Kosarkar::klub = klub;
+    }
+
+    const string &getStDres() const {
+        return st_dres;
+    }
+
+    void setStDres(const string &stDres) {
+        st_dres = stDres;
+    }
+
+
+
+};
+
+
+
+int main(int argc, char** argv) {
+
+/*
+    Oseba o("Marko","Skace","253324623625645734",33);
+
+    o.Izpisi();
+*/
+/*
+    Dijak d("Miha", "Slep", "2707242132", 22, "Strojna", "13143");
+    Dijak b(o, "Strojna", "13143");
+    d.Izpisi();
+*/
+
+    string ime, priimek, emso, klub, st_dres;
+    int starost;
+
+
+    cout << "Vnesi ime: " << endl;
+    cin >> ime;
+    cout << "Vnesi priimek: " << endl;
+    cin >> priimek;
+    cout << "Vnesi emso: " << endl;
+    cin >> emso;
+    cout << "Vnesi starost: " << endl;
+    cin >> starost;
+    cout << "Vnesi klub: " << endl;
+    getline(cin >> ws, klub);
+    cout << "Vnesi dres: " << endl;
+    cin >> st_dres;
+
+
+    Kosarkar k(ime, priimek, emso, starost,klub, st_dres);
+
+
+    k.Izpisi();
+
+    return 0;
 }

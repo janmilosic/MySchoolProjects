@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprememba barve okvirja</title>
+</head>
+
+
+<body>
+
+    Stevilo: <input type="number" name="indeks"> <br>
+    Barva: <input type="text" name="text"> <br>
+
+    <button onclick="naredi()">Naredi</button><br><br>
+
+<script>
+
+    function naredi() {
+
+        var st = document.getElementsByName("indeks")[0].value;
+        var barva = document.getElementsByName("text")[0].value;
+
+        for (var i = 0; i < st; i++) {
+
+            var p = document.createElement("p");
+            
+            p.innerHTML = "test";
+            p.style.borderColor = barva;
+            p.style.borderWidth = `${i + 1}px`;
+            p.style.borderStyle = "solid";
+            document.body.appendChild(p);
+        }
+    }
+</script>
+
+</body>
+</html>
+

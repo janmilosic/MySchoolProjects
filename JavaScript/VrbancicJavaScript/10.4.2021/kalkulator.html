@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    
+</head>
+
+<body>
+
+    Vpiši prvo število:<input type="text" name="text"><br><br>
+    Vpiši drugo število:<input type="text" name="text1"><br><br>
+    Računska operacija:<input type="text" name="text2"><br>
+    <p id="izpis"></p><br>
+    
+    <button onclick="izvedi()">Izvedi</button><br>
+
+    <script>
+
+        var indeks =document.getElementsByTagName('input');
+        var izpis = document.getElementsByTagName('p');
+        var rezultat;
+
+        function izvedi() {
+            if (indeks[2].value == "seštej" || indeks[2].value == "+") {
+                rezultat = parseFloat(indeks[0].value) + parseFloat(indeks[1].value);
+                izpis[0].innerHTML = rezultat;
+            }
+            else if (indeks[2].value == "odštej" || indeks[2].value == "-") {
+                rezultat = indeks[0].value - indeks[1].value;
+                izpis[0].innerHTML = rezultat;
+            }
+            else if (indeks[2].value == "zmnoži" || indeks[2].value == "*") {
+                rezultat = indeks[0].value * indeks[1].value;
+                izpis[0].innerHTML = rezultat;
+            }
+            else if (indeks[2].value == "deli" || indeks[2].value == "/") {
+                rezultat = indeks[0].value / indeks[1].value;
+                izpis[0].innerHTML = rezultat;
+            } 
+            else if (indeks[2] == "deli"  || indeks[2]=="/" && indeks[1] == 0) {
+                alert("Nemoreš deliti z 0!");
+            }
+            else {
+                alert("Vnešena je bila napačna računska operacija!");
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
