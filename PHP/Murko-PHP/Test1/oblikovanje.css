@@ -1,0 +1,27 @@
+* {
+    font-family: "Open Sans", sans-serif
+}
+
+h1{
+    color: RGB(89,121,191);
+}
+
+a{
+    color: white;
+}
+
+input[type="submit"]{
+    background-color: rgb(79, 99, 161);
+    color: white;
+    height: 40px;
+}
+
+button{
+    background-color: rgb(79, 99, 161);
+    color: white;
+    height: 40px;
+}
+
+input{
+    background-color: rgb(230, 233, 252);
+}
