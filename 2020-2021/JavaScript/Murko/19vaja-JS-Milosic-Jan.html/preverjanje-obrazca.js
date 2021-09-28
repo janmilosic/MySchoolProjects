@@ -6,16 +6,14 @@ function preveri(obrazec)
 {  
    //ime (minimalno 3je znaki)
    if (obrazec.ime.value == "" || obrazec.ime.value.length < 3) {
-      document.getElementById("ime").style.backgroundColor = "#e9967a";
-      document.getElementById("ime").focus(); 
+      document.getElementById("ime").style.backgroundColor = "#ed4040";
       alert("Vpišite ime ki ima vsaj 3 črke!");
       return false; 
    }
 
    //priimek (minimalno 3 znaki)
    if (obrazec.priimek.value == "" || obrazec.priimek.value.length < 3) {
-      document.getElementById("priimek").style.backgroundColor = "#e9967a";
-      document.getElementById("priimek").focus(); 
+      document.getElementById("priimek").style.backgroundColor = "#ed4040";
       alert("Vpišite priimek ki ima vsaj 3 črke!");
       return false;
    }
@@ -23,7 +21,6 @@ function preveri(obrazec)
    //ulica (minimalno 5 znakov)
    if (obrazec.ulica.value == "" || obrazec.ulica.value.length < 5) {
       document.getElementById("ulica").style.backgroundColor = "#e9967a";
-      document.getElementById("ulica").focus(); 
       alert("Vpišite ulico ki ima vsaj 5 črk!");
       return false;
    }

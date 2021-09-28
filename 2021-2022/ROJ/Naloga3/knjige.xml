@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="knjige.css"?>
+<KNJIGE>
+    <BOOK>
+
+        <TITLE>The Adventures of Huckleberry</TITLE>
+
+        <AUTHOR>Mark Twain</AUTHOR>
+
+        <BINDING>mass market paperback</BINDING>
+
+        <PAGES>298</PAGES>
+
+        <PRICE>$5.49</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Apples Never Fall</TITLE>
+
+        <AUTHOR>Liane Moriarty</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>480</PAGES>
+
+        <PRICE>$17.63</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>A Slow Fire Burning</TITLE>
+
+        <AUTHOR>Paula Hawkins</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>320</PAGES>
+
+        <PRICE>$16.80</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>The Last Thing He Told Me</TITLE>
+
+        <AUTHOR>Laura Dave</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>320</PAGES>
+
+        <PRICE>$12.92</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>The Paper Palace</TITLE>
+
+        <AUTHOR>Miranda Cowley Heller</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>400</PAGES>
+
+        <PRICE>$15.99</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Fuzz: When Nature Breaks the Law</TITLE>
+
+        <AUTHOR>Mary Roach</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>320</PAGES>
+
+        <PRICE>$21.49</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>My Planet: Finding Humor in the Oddest Places</TITLE>
+
+        <AUTHOR>Mary Roach</AUTHOR>
+
+        <BINDING>mass market paperback</BINDING>
+
+        <PAGES>160</PAGES>
+
+        <PRICE>$9.87</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Crazy Faith: It's Only Crazy Until It Happens</TITLE>
+
+        <AUTHOR>Michael Todd</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>240</PAGES>
+
+        <PRICE>$18.20</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Ugly Love:</TITLE>
+
+        <AUTHOR>Colleen Hoover</AUTHOR>
+
+        <BINDING>mass market paperback</BINDING>
+
+        <PAGES>336</PAGES>
+
+        <PRICE>$8.11</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>The Old Farmer's Almanac 2022 Trade Edition</TITLE>
+
+        <AUTHOR>Old Farmers Almanec</AUTHOR>
+
+        <BINDING>mass market paperback</BINDING>
+
+        <PAGES>288</PAGES>
+
+        <PRICE>$8.95</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Peril</TITLE>
+
+        <AUTHOR>Bob Woodward</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>512</PAGES>
+
+        <PRICE>$18.84</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Fear: Trump in the White House</TITLE>
+
+        <AUTHOR>Bob Woodward</AUTHOR>
+
+        <BINDING>mass market paperback</BINDING>
+
+        <PAGES>448</PAGES>
+
+        <PRICE>$10.79</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Little Blue Truck's Halloween</TITLE>
+
+        <AUTHOR>Alice Schertle</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>16</PAGES>
+
+        <PRICE>$14.79</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>A Place Inside of Me: A Poem to Heal the Heart</TITLE>
+
+        <AUTHOR>Zetta Elliott</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>32</PAGES>
+
+        <PRICE>$15.99</PRICE>
+
+    </BOOK>
+    <BOOK>
+
+        <TITLE>Heron's Cry: A Detective Matthew Venn Novel </TITLE>
+
+        <AUTHOR>Ann Cleeves</AUTHOR>
+
+        <BINDING>hardcover</BINDING>
+
+        <PAGES>400</PAGES>
+
+        <PRICE>$19.59</PRICE>
+
+    </BOOK>
+
+</KNJIGE>

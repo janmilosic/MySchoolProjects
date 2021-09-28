@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<tabela>
+        <ena>
+          <komponenti>KOMPONENTI</komponenti>
+          <solski>ŠOLSKI RAČUNALNIK</solski>
+          <domaci>DOMAČ RAČUNALNIK</domaci>
+        </ena>
+        <dva>
+          <osnovna>Osnovna plošča</osnovna>
+          <prvi>Apple 661-03383</prvi>
+          <drugi>MSI B450</drugi>
+        </dva>
+        <tri>
+          <procesor>Procesor</procesor>
+          <prvi>Intel core i5</prvi>
+          <drugi>Inter core i7</drugi>
+        </tri>
+        <stiri>
+          <grafika>Grafična kartica</grafika>
+          <prvi>Intel HD Graphics 5000</prvi>
+          <drugi>Nvidia RX 2070Ti</drugi>
+        </stiri>
+        <pet>
+          <ram>RAM</ram>
+          <prvi>8GB</prvi>
+          <drugi>16GB</drugi>
+        </pet>
+        <sest>
+          <ssd>SSD disk</ssd>
+          <prvi>/</prvi>
+          <drugi>1TB</drugi>
+        </sest>
+        <sedem>
+          <trdi>Trdi disk</trdi>
+          <prvi>500GB</prvi>
+          <drugi>1TB</drugi>
+        </sedem>
+        <osem>
+            <usb>USB</usb>
+            <prvi>2x USB 2.0</prvi>
+            <drugi>4x USB 3.0</drugi>
+        </osem>
+          <devet>
+            <ohisje>Ohišje</ohisje>
+            <prvi>Apple</prvi>
+            <drugi>Nzxt H510i </drugi>
+          </devet>
+          <deset>
+            <napajalnik>Napajalnik</napajalnik>
+            <prvi>400W</prvi>
+            <drugi>750W</drugi>
+          </deset>
+        </tabela>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bazaclankov>
+    <Clanek1-Covid>
+        <stclanka>01</stclanka>
+        <avtor>Katja Breznik</avtor>
+        <naslov>V torek potrdili 2000 novih okužb</naslov>
+        <jezik>slovenscina</jezik>
+        <stbesed>754</stbesed>
+    </Clanek1-Covid>
+    <Clanek2-Nogomet>
+        <stclanka>02</stclanka>
+        <avtor>Blaz Krajnc</avtor>
+        <naslov>Zgodilo se je prvič v zgodovini: Barcelona brez udarca v okvir vrat</naslov>
+        <jezik>slovenscina</jezik>
+        <stbesed>355</stbesed>
+    </Clanek2-Nogomet>
+    <Clanek3-PopScena>
+        <stclanka>03</stclanka>
+        <avtor>Svetlana Vidmar</avtor>
+        <naslov>Megan Fox o izzivalnih oblekah z rdečih preprog: Ne bojim se biti seksi</naslov>
+        <jezik>slovenscina</jezik>
+        <stbesed>421</stbesed>
+    </Clanek3-PopScena>
+    <Clanek4-Tujina>
+        <stclanka>04</stclanka>
+        <avtor>Manca Hrosc</avtor>
+        <naslov>Na Havajih bodo zaradi Instagramovih uporabnikov odstranili znamenit 'Stairway to Heaven'</naslov>
+        <jezik>slovenscina</jezik>
+        <stbesed>1094</stbesed>
+    </Clanek4-Tujina>
+</bazaclankov>

@@ -1,0 +1,23 @@
+IMENIK { 
+    font-size: 16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+PROFESOR::after{
+    content: "\a";
+    white-space: pre;
+    }
+
+KABINET{
+    display: none;
+}
+
+PREDMET{
+    display: none;
+}
+
+
+STEVILKA{
+	font-style: bold, italic;
+	color: blue;
+}

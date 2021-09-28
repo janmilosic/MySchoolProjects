@@ -1,0 +1,27 @@
+TITLE { 
+    font-size: 16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #d44e4e 
+    }
+
+PAGES { 
+    font-size: 0.9em ; 
+    color: grey;
+    font-style: italic;
+    }
+
+PRICE { 
+    font-size: 14px;
+    font-style: bold, italic;
+    color: rgb(86, 134, 196); 
+    }
+
+AUTHOR {
+    color:rgb(175, 230, 47);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+BOOK::after{
+    content: "\a";
+    white-space: pre;
+    }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oseba>
+    
+    	<ime>Jan</ime>
+    	<priimek>Milošič</priimek>
+    	<placa>4250</placa>
+
+    	<ime>Patrik</ime>
+    	<priimek>Skofic</priimek>
+    	<placa>7410</placa>
+
+    	<ime>David</ime>
+    	<priimek>Sluga</priimek>
+    	<placa>2000</placa>
+
+    	<ime>Renato</ime>
+    	<priimek>Topolovec</priimek>
+   	<placa>1260</placa>
+	
+	<ime>Vito Attila</ime>
+    	<priimek>Kunstek</priimek>
+    	<placa>2520</placa>
+
+    	<ime>Svarun</ime>
+    	<priimek>Čelan</priimek>
+    	<placa>1030</placa>
+
+    	<ime>Tim</ime>
+    	<priimek>Prigl</priimek>
+    	<placa>4700</placa>
+
+    	<ime>Dolores</ime>
+    	<priimek>Zenko</priimek>
+    	<placa>1200</placa>
+
+    	<ime>Bogdana</ime>
+    	<priimek>Hacin</priimek>
+    	<placa>2400</placa>
+
+    	<ime>Luka</ime>
+    	<priimek>Solatnik</priimek>
+    	<placa>6542</placa>
+    	
+</oseba>
