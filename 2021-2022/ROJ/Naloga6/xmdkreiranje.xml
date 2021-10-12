@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TVSCHEDULE [
 <!ELEMENT TVSCHEDULE (CHANNEL+)>
 <!ELEMENT CHANNEL (BANNER,DAY+)>
@@ -16,3 +17,16 @@
 <!ATTLIST TITLE RATING CDATA #IMPLIED>
 <!ATTLIST TITLE LANGUAGE CDATA #IMPLIED>
 ]>
+<TVSCHEDULE NAME="TV-Spored">
+    <CHANNEL CHAN="POP TV">
+        <BANNER>24UR</BANNER>
+        <DAY>
+            <DATE>29.9.2021</DATE>
+            <PROGRAMSLOT>
+                <TIME>19.00</TIME>
+                <TITLE LANGUAGE="Slovenščina" RATING="IMDb: 4.5/10">24ur</TITLE>
+                <DESCRIPTION>Ce gledas novice je vrede cene pa ni.</DESCRIPTION>
+            </PROGRAMSLOT>
+        </DAY>
+    </CHANNEL>
+</TVSCHEDULE>
