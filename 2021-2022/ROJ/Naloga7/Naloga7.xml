@@ -1,0 +1,32 @@
+<!DOCTYPE NEWSPAPER [
+
+<!ELEMENT NEWSPAPER (ARTICLE+)>
+<!ELEMENT ARTICLE (HEADLINE,BYLINE,LEAD,BODY,NOTES)>
+<!ELEMENT HEADLINE (#PCDATA)>
+<!ELEMENT BYLINE (#PCDATA)>
+<!ELEMENT LEAD (#PCDATA)>
+<!ELEMENT BODY (#PCDATA)>
+<!ELEMENT NOTES (#PCDATA)>
+
+<!ATTLIST ARTICLE AUTHOR CDATA #REQUIRED>
+<!ATTLIST ARTICLE EDITOR CDATA #IMPLIED>
+<!ATTLIST ARTICLE DATE CDATA #IMPLIED>
+<!ATTLIST ARTICLE EDITION CDATA #IMPLIED>
+
+<!ENTITY NEWSPAPER "Vervet Logic Times">
+<!ENTITY PUBLISHER "Vervet Logic Press">
+<!ENTITY COPYRIGHT "Copyright 1998 Vervet Logic Press">
+
+]>
+
+<NEWSPAPER>&NEWSPAPER; &PUBLISHER;
+    <ARTICLE AUTHOR="Jan Milosic" EDITOR="Jan Milosic" DATE="12.10.2021" EDITION="STANDARD">
+        <HEADLINE>Ni interneta</HEADLINE>
+        <BYLINE>Na ers ptuj ni interneta ye 2 dni</BYLINE>
+        <LEAD>Neke</LEAD>
+        <BODY>Kaj bomo naredli ce ni interneta? Novica dneva: Africani sporocajo:
+             Prosimo ne posiljajte nam riza ker ce ne vete da skohamo riz rabimo VODO.</BODY>
+        <NOTES>Ni vode in interneta</NOTES>
+    </ARTICLE>
+    &COPYRIGHT;
+</NEWSPAPER> 
