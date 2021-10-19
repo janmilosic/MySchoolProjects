@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="DIJAK">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="IME" type="xs:string"/>
+      <xs:element name="PRIIMEK" type="xs:string"/>
+      <xs:element name="STEVILKA" type="xs:string"/>
+      <xs:element name="ULICA" type="xs:string"/>
+      <xs:element name="HISTNA_ST" type="xs:integer"/>
+      <xs:element name="POSTA" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
