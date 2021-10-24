@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<addresses xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <address>
+    <name>Nekaj</name>
+    <street>Ptuj 1</street>
+  </address>
+  <address>
+    <name>Nekaj</name>
+    <street>Ptuj 2</street>
+  </address>
+</addresses>

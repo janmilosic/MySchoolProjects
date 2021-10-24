@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shiporder xsi:noNamespaceSchemaLocation="schema.xsd" orderid="string" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <orderperson>Mili</orderperson>
+  <shipto>
+    <name>Jan Milosic</name>
+    <address>Vareja 2a</address>
+    <city>Videm Pri Ptuju</city>
+    <country>Slovenia</country>
+  </shipto>
+  <item>
+    <title>Weed 1gram</title>
+    <note>Fresh please</note>
+    <quantity>5</quantity>
+    <price>10.50</price>
+  </item>
+</shiporder>

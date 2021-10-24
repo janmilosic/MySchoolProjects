@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="IMENIK">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="10" name="PROFESOR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IME" type="xs:string" />
+              <xs:element name="PRIIMEK" type="xs:string" />
+              <xs:element name="PREDMET" type="xs:string" />
+              <xs:element name="KABINET" type="xs:integer" />
+              <xs:element name="STEVILKA" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
