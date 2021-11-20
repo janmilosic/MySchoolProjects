@@ -12,7 +12,7 @@ All projects are sorted in separate folders.
 You can find:
 
 ```
-HTML, CSS, JS, C++ CODE
+HTML, CSS, JS, C++, PHP, XML CODE
 ```
 
 ##### Author: Jan Milosic
