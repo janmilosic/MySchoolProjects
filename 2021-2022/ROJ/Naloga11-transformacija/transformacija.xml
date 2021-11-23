@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<food_list>
+  <food_item type="vegetable">
+    <name>Agar</name>
+    <carbs_per_serving>81</carbs_per_serving>
+    <fiber_per_serving>8</fiber_per_serving>
+    <fat_per_serving>0.5</fat_per_serving>
+    <kj_per_serving>1280</kj_per_serving>
+  </food_item>
+
+    <!-- Po potrebi vstavis vec  -->
+  
+ </food_list>
