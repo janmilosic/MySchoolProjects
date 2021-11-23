@@ -1,0 +1,60 @@
+<INVENTORY>
+    
+    <BOOK InStock="yes">
+       <TITLE>The Adventures of Huckleberry</TITLE>
+       <AUTHOR Born="1835">Mark Twain</AUTHOR>
+       <BINDING>paperback</BINDING>
+       <PAGES>298</PAGES>
+       <PRICE>$5.49</PRICE>
+    </BOOK>
+    <BOOK InStock="yes">
+       <TITLE>Apples Never Fall</TITLE>
+       <AUTHOR Born="1966">Liane Moriarty</AUTHOR>
+       <BINDING>hardcover</BINDING>
+       <PAGES>480</PAGES>
+       <PRICE>$17.63</PRICE>
+    </BOOK>
+    <BOOK InStock="no">
+        <TITLE>A Slow Fire Burning</TITLE>
+        <AUTHOR Born="1972">Paula Hawkins</AUTHOR>
+        <BINDING>hardcover</BINDING>
+        <PAGES>320</PAGES>
+        <PRICE>$16.80</PRICE>
+     </BOOK>
+     <BOOK InStock="yes">
+        <TITLE>Leaves of Grass</TITLE>
+        <AUTHOR Born="1819">Walt Whitman</AUTHOR>
+        <BINDING>hardcover</BINDING>
+        <PAGES>462</PAGES>
+        <PRICE>$7.75</PRICE>
+     </BOOK>
+     <BOOK InStock="yes">
+        <TITLE>The Last Thing He Told Me</TITLE>
+        <AUTHOR Born="1977">Laura Dave</AUTHOR>
+        <BINDING>hardcover</BINDING>
+        <PAGES>320</PAGES>
+        <PRICE>$12.92</PRICE>
+     </BOOK>
+     <BOOK InStock="no">
+        <TITLE>Fuzz: When Nature Breaks the Law</TITLE>
+        <AUTHOR Born="1959">Mary Roach</AUTHOR>
+        <BINDING>hardcover</BINDING>
+        <PAGES>320</PAGES>
+        <PRICE>$21.49</PRICE>
+     </BOOK>
+     <BOOK InStock="no">
+        <TITLE>Crazy Faith: It's Only Crazy Until It Happens</TITLE>
+        <AUTHOR Born="1909">Michael Todd</AUTHOR>
+        <BINDING>hardcover</BINDING>
+        <PAGES>240</PAGES>
+        <PRICE>$18.20</PRICE>
+     </BOOK>
+     <BOOK InStock="yes">
+        <TITLE>Peril</TITLE>
+        <AUTHOR Born="1943">Bob Woodward</AUTHOR>
+        <BINDING>hardcover</BINDING>
+        <PAGES>512</PAGES>
+        <PRICE>$18.84</PRICE>
+     </BOOK>
+ 
+ </INVENTORY>
