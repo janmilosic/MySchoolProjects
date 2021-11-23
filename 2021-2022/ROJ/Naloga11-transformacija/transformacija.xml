@@ -10,6 +10,8 @@
 
     <!-- Po potrebi vstavis vec  -->
 
-    <!-- Da vidis kaj se zgodi vstavi v https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog_if  -->
+    <!-- Da vidis kaj se zgodi vstavi v: https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog_if  -->
+
+    <!-- Da iz teh dveh programov pridobis html vstavi v: https://xslttest.appspot.com/ -->
   
  </food_list>
