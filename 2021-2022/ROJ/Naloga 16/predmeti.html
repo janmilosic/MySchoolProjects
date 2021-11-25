@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<script type="text/javascript">
+
+var request = new XMLHttpRequest();
+
+request.open("GET", "urnik.xml", false);
+request.send();
+
+var xml = request.responseXML;
+var iscemo = xml.getElementsByTagName("subjects");
+
+document.write("<table border='1'>");
+
+for(var i = 0; i < iscemo.length; i++) {
+    var neke = iscemo[i];
+    var names = neke.getElementsByTagName("longname");
+    for(var j = 0; j < names.length; j++) {
+        
+      document.write("<tr><td>");
+      document.write(names[j].childNodes[0].nodeValue);
+      document.write("</td></tr>");
+
+    }
+}
+
+document.write("</table>");
+
+</script>
+
+</body>
+</html>
