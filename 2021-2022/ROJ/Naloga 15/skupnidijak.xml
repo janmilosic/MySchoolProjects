@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dijaki>
+    <dijak>
+        <ime>Luka</ime>
+        <priimek>Horvat</priimek>
+        <stevilka>6</stevilka>
+        <ulica>Trate</ulica>
+        <hisna_st>11</hisna_st>
+        <imeposte>Sredisce ob Dravi</imeposte>
+        <posta>2277</posta>
+        <EMSO>1010993500321</EMSO>
+    </dijak>
+	<dijak>
+		<ime>Blaž</ime>
+		<priimek>Babšek</priimek>
+		<stevilka>123123123</stevilka>		
+		<ulica>Breg</ulica>
+		<hisna_st>57</hisna_st>
+		<imeposte>Majšperk</imeposte>
+		<posta>2322</posta>
+		<EMSO>3210987654321</EMSO>
+		
+	</dijak>
+    
+<dijak>
+<ime>Natanael
+</ime>
+
+<priimek>Ahac
+</priimek>
+
+<stevilka>1
+</stevilka>
+<ulica>Bukovci</ulica>
+<hisna_st>124</hisna_st>
+<imeposte
+>Markovci</imeposte
+>
+<posta>2281</posta>
+<EMSO>0305994500542</EMSO>
+
+</dijak>
+    
+
+       <dijak>
+            <ime>Klemen</ime>
+            <priimek>Mojzeš</priimek>
+            <stevilka>1</stevilka>
+            <ulica>Kekčova</ulica>
+            <hisna_st>44</hisna_st>
+            <imeposte>Ormož</imeposte>
+            <posta>6666</posta>
+            <EMSO>1205995500756</EMSO>
+        </dijak>
+        <dijak>
+            <ime>Danin</ime>
+            <priimek>Rižnar</priimek>
+            <stevilka>2</stevilka>
+            <ulica>Huha</ulica>
+            <hisna_st>52</hisna_st>
+            <imeposte>Murska Sobota</imeposte>
+            <posta>6666</posta>
+            <EMSO>0212992500721</EMSO>
+        </dijak>
+        <dijak>
+            <ime>Dejan</ime>
+            <priimek>Moravec</priimek>
+            <stevilka>3</stevilka>
+            <ulica>Peklenska</ulica>
+            <hisna_st>10</hisna_st>
+            <imeposte>Haloze</imeposte>
+            <posta>2291</posta>
+            <EMSO>0707997500766</EMSO>
+        </dijak>
+
+        <dijak>
+            <ime>Denis</ime>
+            <priimek>Drevenšek</priimek>
+            <stevilka>4</stevilka>
+            <ulica>Hekel</ulica>
+            <hisna_st>89</hisna_st>
+            <imeposte>Bildo</imeposte>
+            <posta>9927</posta>
+            <EMSO>0201993500976</EMSO>
+        </dijak>
+        <dijak>
+            <ime>Luka</ime>
+            <priimek>Horvat</priimek>
+            <stevilka>5</stevilka>
+            <ulica>Trate</ulica>
+            <hisna_st>11</hisna_st>
+            <imeposte>Središče</imeposte>
+            <posta>8286</posta>
+            <EMSO>1002991500882</EMSO>
+        </dijak>
+        <dijak>
+            <ime>Nejc</ime>
+            <priimek>Gerič</priimek>
+            <stevilka>6</stevilka>
+            <ulica>Vuzmetinci</ulica>
+            <hisna_st>88</hisna_st>
+            <imeposte>Miklavž pri Ormožu</imeposte>
+            <posta>2275</posta>
+            <EMSO>0605993500721</EMSO>
+        </dijak>
+        <dijak>
+            <ime>Miha</ime>
+            <priimek>Gerič</priimek>
+            <stevilka>7</stevilka>
+            <ulica>Vuzmetinci</ulica>
+            <hisna_st>88</hisna_st>
+            <imeposte>Miklavž pri Ormožu</imeposte>
+            <posta>2275</posta>
+            <EMSO>0605993500728</EMSO>
+        </dijak>    
+ <dijak>
+<ime>Bla�</ime>
+<priimek>Grabner</priimek>
+<stevilka>?</stevilka>
+<ulica>Gomil�akova</ulica>
+<hisna_st>14</hisna_st>
+<imeposte>Ptuj</imeposte>
+<posta>2250</posta>
+</dijak>
+    <dijak>
+        <ime>Jan</ime>
+        <priimek>Haložan</priimek>
+        <stevilka>040580325</stevilka>
+        <ulica>Majšperk</ulica>
+        <hisna_st>112</hisna_st>
+        <imeposte>Ptujska Gora</imeposte>
+        <posta>2323</posta>
+        <EMSO>1234567890123</EMSO>
+    </dijak> 
+	<dijak>
+		<ime>Zoran</ime>
+		<priimek>Kelenc</priimek>
+		<stevilka>041894242</stevilka>
+		<ulica>Lovrenc na Dravskem polju</ulica>
+		<hisna_st>70</hisna_st>
+		<imeposte>Lovrenc na Dravskem polju</imeposte>
+		<posta>2324 Lovrenc</posta>
+		<EMSO>1805993500368</EMSO>
+	</dijak>
+ 
+	<dijak>
+	
+            <ime>Patrik</ime>
+            <priimek>Kokol</priimek>
+            <stevilka>11</stevilka>
+            <ulica>Dragovič</ulica>
+            <hisna_st>1b</hisna_st>
+            <imeposta>Juršinci</imeposta>
+            <posta>2256</posta>
+            <emso>2411993500183</emso>
+     </dijak>   
+	<dijak>
+		<ime>Dejan</ime>
+		<priimek>Korez</priimek>
+		<stevilka>041837817</stevilka>
+		<ulica>Kup�inji vrh</ulica>
+		<hisna_st>1a</hisna_st>
+		<imeposte>Stoperce</imeposte>
+		<posta>2289</posta>
+		<EMSO>7843575</EMSO>
+	</dijak>
+     
+<dijak>
+
+<ime>Anton</ime>
+<priimek>Matič</priimek>
+<stevilka>13</stevilka>
+<ulica>Panonska</ulica>
+<hisna_st>2</hisna_st>
+<imeposte>Ptuj</imeposte>
+<posta>2250</posta>
+<EMSO>190799364624</EMSO>
+
+</dijak>
+     
+<dijak>
+  <ime>klemen</ime> 
+  <priimek>Mojzes</priimek> 
+  <stevilka>123456789</stevilka> 
+  <ulica>Podgorci 111</ulica> 
+  <hisna_st>111 </hisna_st>
+<imeposte>Podgorci</imeposte> 
+<posta>2273   </posta>  
+</dijak>
+
+<dijak>
+
+<ime>Mitja</ime>
+
+<priimek>Zagorsek</priimek>
+
+<stevilka>051-228-374</stevilka>
+
+<ulica>Dornava </ulica>
+
+<hisnast>30/b</hisnast>
+
+<ime_poste>Dornava</ime_poste>
+
+<posta>2252</posta>
+
+<EMSO> 0859721256 </EMSO>
+
+</dijak>
+
+<dijak>
+
+<ime>Samo</ime>
+
+<priimek>Taciga</priimek>
+
+<stevilka>031-747-641</stevilka>
+
+<ulica>Stoperce</ulica>
+
+<hisnast>79</hisnast>
+
+<ime_poste>Stoperce</ime_poste>
+
+<posta>2289</posta>
+
+<EMSO> 0315664605 </EMSO>
+
+</dijak>
+
+</dijaki>
