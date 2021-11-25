@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oseba>
+    <dijak>
+    	<ime>Jan</ime>
+    	<priimek>Milošič</priimek>
+        <postna_stevilka>2284</postna_stevilka>
+    	<placa>4250</placa>
+    </dijak>
+    <dijak>
+    	<ime>Patrik</ime>
+    	<priimek>Skofic</priimek>
+        <postna_stevilka>2250</postna_stevilka>
+    	<placa>7410</placa>
+    </dijak>
+    <dijak>
+    	<ime>David</ime>
+    	<priimek>Sluga</priimek>
+        <postna_stevilka>2253</postna_stevilka>
+    	<placa>2000</placa>
+    </dijak>
+    <dijak>
+    	<ime>Renato</ime>
+    	<priimek>Topolovec</priimek>
+        <postna_stevilka>2284</postna_stevilka>
+   	    <placa>1260</placa>
+    </dijak>
+    <dijak>
+	    <ime>Vito Attila</ime>
+    	<priimek>Kunstek</priimek>
+        <postna_stevilka>2284</postna_stevilka>
+    	<placa>2520</placa>
+    </dijak>
+    <dijak>
+    	<ime>Svarun</ime>
+    	<priimek>Čelan</priimek>
+        <postna_stevilka>2250</postna_stevilka>
+    	<placa>1030</placa>
+    </dijak>
+    <dijak>
+    	<ime>Tim</ime>
+    	<priimek>Prigl</priimek>
+        <postna_stevilka>2253</postna_stevilka>
+    	<placa>4700</placa>
+    </dijak>
+    <dijak>
+    	<ime>Luka</ime>
+    	<priimek>Solatnik</priimek>
+        <postna_stevilka>2325</postna_stevilka>
+    	<placa>6542</placa>
+    </dijak>
+    	
+</oseba>
