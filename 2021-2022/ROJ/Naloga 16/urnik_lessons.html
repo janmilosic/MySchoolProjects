@@ -12,10 +12,11 @@ var xml = request.responseXML;
 var iscemo = xml.getElementsByTagName("lessons");
 
 document.write("<table border='1'>");
+document.write("<h2>Assigned end time</h2>");
 
 for(var i = 0; i < iscemo.length; i++) {
     var neke = iscemo[i];
-    var names = neke.getElementsByTagName("lesson");
+    var names = neke.getElementsByTagName("assigned_endtime");
     for(var j = 0; j < names.length; j++) {
         
       document.write("<tr><td>");
