@@ -11,7 +11,7 @@ int main()
     int neko_stevilo, vnos_stevilo;
 
     srand(time(NULL));
-    neko_stevilo=rand()%6+1;
+    neko_stevilo=rand()%5+1;
 
     cout<<"Poskusaj uganiti stevilo med 1 in 5: ";
     cin>>vnos_stevilo;
