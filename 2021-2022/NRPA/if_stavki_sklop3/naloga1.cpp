@@ -10,9 +10,9 @@ int main() {
     cin>>znak;
 
     if (znak == 'A' ||znak == 'a' || znak == 'E' || znak == 'e' || znak == 'I' || znak == 'i' || znak == 'O' || znak == 'o' || znak == 'U' || znak == 'u'){
-        cout<<"to sigurni ni praf"<<endl;
+        cout<<"vnesel si veljaven znak"<<endl;
     } else {
-        cout<<"eh nimas pojma "<<endl;
+        cout<<"znak ki si ga vnesel ni veljaven"<<endl;
     }
 
     return 0;
