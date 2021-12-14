@@ -12,7 +12,7 @@ int main() {
     if (znak == 'A' ||znak == 'a' || znak == 'E' || znak == 'e' || znak == 'I' || znak == 'i' || znak == 'O' || znak == 'o' || znak == 'U' || znak == 'u'){
         cout<<"vnesel si veljaven znak"<<endl;
     } else {
-        cout<<"znak ki si ga vnesel ni veljaven"<<endl;
+        cout<<"vnesen znak je neveljaven"<<endl;
     }
 
     return 0;
