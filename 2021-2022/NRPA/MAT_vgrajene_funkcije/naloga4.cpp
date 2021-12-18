@@ -16,7 +16,7 @@ int main() {
         for (int i = 0; i < n; ++i) { // i gre navpicno
             nekaj = nekaj + 1;
             for (int j = 0; j < n; ++j) { // j gre vodoravno
-                if (i == n/2 || j == n/2 || i == n/2 || n/2 == j){
+                if (i == n/2 || j == n/2){
                     cout << nekaj <<"  ";
                 } else {
                     cout << "0  ";
