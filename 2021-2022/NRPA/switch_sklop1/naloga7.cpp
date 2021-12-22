@@ -9,8 +9,8 @@ int main() {
     cout << "Vnesi neko besedilo: " <<endl;
     getline(cin, besedilo);
 
-    for (int i = besedilo.length(); i >= 0; --i) { // i gre navpicno
-        for (int j = besedilo.length(); j >= 0; --j) { // j gre vodoravno
+    for (int i = besedilo.length(); i >= 0; --i) { //  i gre navpicno
+        for (int j = besedilo.length(); j >= 0; --j) { // j gre vodoravno 
             if (besedilo.length() == j){
 
                 cout << besedilo[j] << "  ";
