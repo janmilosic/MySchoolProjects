@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void izpisiHarshadovaStevila(){
+void izpisiObilnaStevila(){
 
     srand(time(NULL));
 
@@ -24,7 +24,7 @@ void izpisiHarshadovaStevila(){
         }
 
         if (vsota > stevilo){
-            cout<< stevilo <<" is an Abundant number."<<endl;
+            cout<< stevilo <<" je obilno stevilo."<<endl;
         }
     }
 
@@ -32,7 +32,7 @@ void izpisiHarshadovaStevila(){
 
 int main() {
 
-    izpisiHarshadovaStevila();
+    izpisiObilnaStevila();
 
     return 0;
 }
