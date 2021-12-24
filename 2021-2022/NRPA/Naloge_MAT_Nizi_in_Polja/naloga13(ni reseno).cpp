@@ -1,31 +1,50 @@
-#include <iostream>
-#include <algorithm>
-#include <time.h>
+#include<iostream>
+#include<time.h>
 
 using namespace std;
 
-int stevila[10];
+void najpogostejseStevilo(int nums[], int size)
+{
+    int max_count = 0;
+    for (int i=0; i<size; i++){
+        int count=1;
+        for (int j=i+1;j<size;j++) {
+            if (nums[i] == nums[j]){
+                count++;
+            }
+        }
+        if (count>max_count){
+            max_count = count;
+        }
+    }
 
-void najpogostejseStevilo(){
+    for (int i=0;i<size;i++)
+    {
+        int count=1;
+        for (int j=i+1;j<size;j++){
+            if (nums[i]==nums[j]){
+                count++;
+            }
+        }
+        if (count==max_count){
+            cout << "Najpogostejse stevilo: " << nums[i]<< endl;
+            break;
+        }
+    }
+}
 
-    int prestej;
-    int max = 0;
+int main()
+{
+    int nums[10];
 
     srand(time(NULL));
 
     for (int i = 0; i < 10; ++i) {
-        stevila[i] = rand() % 5 + 1;
-        cout << stevila[i] << " ";
-
-        if (stevila[i] > max){
-            max = stevila[i];
-            prestej = 1;
-        } else if (stevila[i] == max){
-            prestej++;
-        }
-
+        nums[i] = rand()%10+1;
+        cout << nums[i] <<" ";
     }
+    cout << " " << endl;
+    int n = sizeof(nums)/sizeof(nums[0]);
 
-    cout<<"The largest number is "<<max<<".\nThe occurrence count of the largest number is "<<prestej<<".\n";
-
+    najpogostejseStevilo(nums, n);
 }
