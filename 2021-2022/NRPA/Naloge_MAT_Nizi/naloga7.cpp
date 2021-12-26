@@ -7,7 +7,7 @@ using namespace std;
 string besedilo;
 int nekaj;
 
-int vrniBrezSamoglasnikov(){
+int steviloSoglasnikov(){
 
     for (int i = 0; i < besedilo.length(); ++i) {
         if (besedilo[i] != 'A' && besedilo[i] != 'E' && besedilo[i] != 'I' && besedilo[i] != 'O' && besedilo[i] != 'U'){
@@ -23,7 +23,7 @@ int main() {
     getline (cin, besedilo);
     transform(besedilo.begin(), besedilo.end(),besedilo.begin(), ::toupper);
 
-    nekaj = vrniBrezSamoglasnikov();
+    nekaj = steviloSoglasnikov();
     cout << nekaj << endl;
 
     return 0;
