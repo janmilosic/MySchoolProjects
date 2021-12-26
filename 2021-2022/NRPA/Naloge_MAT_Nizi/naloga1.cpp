@@ -18,7 +18,7 @@ int main() {
 
     cout << "Vnesi prvi niz: " << endl;
     cin>>niz1;
-    cout << "Vnesi prvi niz: " << endl;
+    cout << "Vnesi drugi niz: " << endl;
     cin>>niz2;
 
     nov_niz = zdruziNiza();
