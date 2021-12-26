@@ -20,7 +20,7 @@ void cenzuraSamoglasnikov(){
 
 int main() {
 
-    cout << "Vnesi poljubno besedilo1: " << endl;
+    cout << "Vnesi poljubno besedilo: " << endl;
     getline (cin, besedilo);
     transform(besedilo.begin(), besedilo.end(),besedilo.begin(), ::toupper);
 
