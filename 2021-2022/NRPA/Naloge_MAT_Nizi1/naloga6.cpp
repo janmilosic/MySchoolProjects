@@ -2,45 +2,35 @@
 
 using namespace std;
 
-long stevilo;
-int array[13];
+bool preveriEmso(string emso) {
+    if (emso.length() < 13)
+        return false;
 
+    int faktor = 7;
+    int vsota = 0;
 
-void preveriemso(){
-int c=0,a;
-int b=7,d=13;
-    for (int i = 0; i < 12; i++) {
+    for (int i = 0; i <= emso.length() - 2; i++) {
+        if (i == 6)
+            faktor = 7;
 
-        if (b > 1){
-            a = array[i] * b;
-        } else {
-            a = array[i] * d;
-        }
+        vsota += ((int) emso[i] - 48) * faktor;
 
-        b--;
-        d--;
-        c = c + a;
+        faktor--;
     }
-    c=c+array[12];
-    if (c % 11 != 0){
-        cout << "EMSO je napacna!" << endl;
-    } else {
-        cout << "EMSO je pravilna!" << endl;
-    }
+
+    return (vsota + ((int) emso[12] - 48)) % 11 == 0 ;
 }
 
 int main() {
+    string emso = "";
 
-    cout << "Vnesi emso: " << endl;
-    cin >> stevilo;
+    cout << "Podaj emso: ";
+    cin >> emso;
 
-
-for (int i = 12; i >= 0; i--) {
-    array[i] = stevilo % 10;
-    stevilo /= 10;
-}
-
-    preveriemso();
+    if (preveriEmso(emso))
+        cout << "EMSO je veljaven" << endl;
+    else
+        cout << "EMSO neveljaven" << endl;
 
     return 0;
 }
