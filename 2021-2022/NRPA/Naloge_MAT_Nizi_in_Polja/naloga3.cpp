@@ -6,7 +6,7 @@ using namespace std;
 int a, b;
 int polje[100];
 
-void nakljucnaLihaStevila(){
+void prestejStevila(){
 
     srand(time(NULL));
 
@@ -30,7 +30,7 @@ void nakljucnaLihaStevila(){
 
 int main() {
 
-    nakljucnaLihaStevila();
+    prestejStevila();
 
     return 0;
 }
